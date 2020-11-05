@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <title>DASHBOARD</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+
+</head>
+
+    <body class="dashboard">
+     
+        <!--  header Main Menu -->
+        <header class="header fixed-top container-fluid px-0">
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+              <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="https://static.vectorfair.com/assets/icons/vectorfair.svg" alt="vectorfair logo" width="180">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+          
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="index.html">Dashboard</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="">Profile</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="">Categories</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="">Vectors</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="">Hero bg</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link text-muted font-weight-bold" href="">Kibana</a>
+                  </li>
+                  <li class="nav-item">
+                      <div id="userMenu" class="dropdown ml-0 ml-md-5">
+                          <div id="userPic" class="d-inline-block"><img class="rounded-circle" src="http://placekitten.com/100" width="35px" height="35px" alt=""></div>
+                          <button class="btn dropdown-toggle text-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+          </nav>      
+        </header>
+        <!-- End header MAIN MENU -->      
+        
+        <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- DATA TABLE -->
+                                <div class="table-data__tool justify-content-end">
+                                    <div class="table-data__tool-right">
+                                        <button class="au-btn au-btn-icon au-btn--blue au-btn--small">
+                                            <i class="zmdi zmdi-plus"></i>New</button>
+                                    </div>
+                                </div>
+                                <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>PRIORITY</th>
+                                                <th>NAME</th>
+                                                <th>CREATED DATE</th>
+                                                <th>POPULARIRY</th>
+                                                <th>STATE</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-shadow">
+                                                <td>10</td>
+                                                <td>
+                                                    <span class="block-email">COVID-19</span>
+                                                </td>
+                                                <td class="desc">22/05/2020</td>
+                                                <td>
+                                                	
+                                                </td>
+                                                <!--<td>
+                                                    <span class="status--process">Activated</span>
+                                                </td>-->
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <img src="img/pen-square-solid.svg">
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <img src="img/trash-solid.svg">
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                                <td>10</td>
+                                                <td>
+                                                    <span class="block-email">ICONS</span>
+                                                </td>
+                                                <td class="desc">22/05/2020</td>
+                                                <td></td>
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <img src="img/pen-square-solid.svg">
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <img src="img/trash-solid.svg">
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                                <td>10</td>
+                                                <td>
+                                                    <span class="block-email">MOTHER`S DAY</span>
+                                                </td>
+                                                <td class="desc">22/05/2020</td>
+                                                <td></td>
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <img src="img/pen-square-solid.svg">
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <img src="img/trash-solid.svg">
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                                <td>10</td>
+                                                <td>
+                                                    <span class="block-email">PEOPLE</span>
+                                                </td>
+                                                <td class="desc">22/05/2020</td>
+                                                <td></td>
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                                            <img src="img/pen-square-solid.svg">
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                            <img src="img/trash-solid.svg">
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- END DATA TABLE -->
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        <!-- The Modal -->
+        <div id="modal-form" class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title"><b>Vector form</b></h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span class="btn-outline-light text-info">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div id="form-modal">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-8">
+                          <label for="inputName">Title</label>
+                          <input type="text" class="form-control" id="inputName">
+                          <label for="inputDescription">Description</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                        </div>
+                        <div class="form-group col-md-4 align-self-end">
+                          <img class="img-fluid" src="http://placekitten.com/200/200" alt="">
+                        </div>
+                      </div>
+                      
+                      <!-- start tags -->
+                        <div class="form-group">
+                          <label for="tag-cloud-input">Keywords</label>
+                          <ul id="my-tags" class="tag-cloud list-inline">
+                            <li class="label label-default tag tag-active">Free<a href="#" class="tag-undo" data-tag-slug="free">X</a></li>
+                            <li class="label label-default tag tag-active">Flat<a href="#" class="tag-undo" data-tag-slug="flat">X</a></li>
+                            <li class="label label-default tag tag-active">Landscape<a href="#" class="tag-undo" data-tag-slug="landscape">X</a>
+                            </li>
+                          </ul>
+                          <div class="input-group">
+                            <input id="tag-cloud-input" type="text" class="form-control" placeholder="Add tags separated by a comma..." >
+                            <div class="input-group-append">
+                              <button class="btn btn-info" type="button" id="button-add-tag">Add</button>
+                            </div>
+                          </div>
+                        </div>
+                      <!-- end tags -->
+                      <div class="form-row justify-content-between">
+                        <div class="form-group col-md-4">
+                          <fieldset class="form-group">
+                            <label for="formGroupExampleInput">Home Category</label>
+                            <select class="c-select form-control" id="formGroupExampleInput">
+                              <option selected>Backgrounds</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </fieldset>
+                        </div>
+                        <div class="col-4 align-self-center text-right">
+                          <button type="submit" class="btn btn-dark width">Close</button>
+                          <button type="submit" class="btn btn-success width">Update</button>
+                        </div>
+                      </div>
+                      
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end Modal body -->
+            </div>
+            <!-- end Modal content -->
+          </div>
+        </div>
+        <!-- end Modal -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
