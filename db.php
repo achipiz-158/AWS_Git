@@ -1,7 +1,7 @@
 <?php
-$dsn = 'dblib:host=aws-endpoint.rds.amazonaws.com:1433;dbname=db-name;';
-$user = 'user-name';
-$password = 'password';
+$dsn = 'dblib:host=db-test.chrdtmiepdxg.us-west-2.rds.amazonaws.com:1433;dbname=rdsadmin;';
+$user = 'admin';
+$password = 'Aa246680';
 
 try {
 
