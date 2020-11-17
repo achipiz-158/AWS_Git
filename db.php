@@ -1,5 +1,5 @@
 <?php
-$dsn = 'sqlsrvl:host=db-test.chrdtmiepdxg.us-west-2.rds.amazonaws.com:1433;dbname=rdsadmin;';
+$dsn = 'sqlsrvl:host=db-test.chrdtmiepdxg.us-west-2.rds.amazonaws.com:1433;dbname=test;';
 $user = 'admin';
 $password = 'Aa246680';
 
@@ -8,7 +8,7 @@ try {
   $dbh = new PDO($dsn, $user, $password);
 
   $result = $dbh->query("SELECT * 
-    FROM table-name;");
+    FROM usuario;");
 
   foreach ($result as $row) {
     echo '<pre>';
