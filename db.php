@@ -1,5 +1,5 @@
 <?php
-$dsn = 'dblib:host=db-test.chrdtmiepdxg.us-west-2.rds.amazonaws.com:1433;dbname=rdsadmin;';
+$dsn = 'sqlsrvl:host=db-test.chrdtmiepdxg.us-west-2.rds.amazonaws.com:1433;dbname=rdsadmin;';
 $user = 'admin';
 $password = 'Aa246680';
 
